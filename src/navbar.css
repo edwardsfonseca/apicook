@@ -1,0 +1,19 @@
+.navbar-style{
+    display: flex;
+    justify-content: space-around;
+}
+.navbar-style ul li a{
+    color: rgb(239, 9, 9);
+}
+.buttonf{
+    display: contents;
+}
+.nav-item{
+    display: flex;
+    flex-direction: row;
+}
+#divi{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
