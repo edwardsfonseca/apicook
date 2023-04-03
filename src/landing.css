@@ -6,40 +6,24 @@
     background-size: cover;
     padding: 0;
     margin: 0;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
     height: 100vh;
   }
-.Menu{
-    position: relative;
-    display: flex;
-    background: #1E1E1E;
-    background-size: cover;
-    padding: 0;
-    margin: 0;
-    height: 100vh;
-  }
-.Contacto{
-    position: relative;
-    display: flex;
-    background: #1E1E1E;
-    background-size: cover;
-    padding: 0;
-    margin: 0;
-    height: 100vh;
-  }
-.Planes{
-    position: relative;
-    display: flex;
-    background: #1E1E1E;
-    background-size: cover;
-    padding: 0;
-    margin: 0;
-    height: 100vh;
-  }
+.Home:before{
+  content: '';
+  position: absolute;
+  background-color: black;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  opacity: 0.5;
+}
 .contenido{
     position: absolute;
     bottom: 30%;
     color: white;
-    background: rgba(126, 126, 127, 0.277);
+    
     margin-left: 800px;
     margin-right: 10px;
 }
@@ -47,9 +31,50 @@
     .contenido{
         position: absolute;
         bottom: 30%;
-        background: rgb(34, 255, 0);
+        
         margin-left: 200px;
         margin-right: 10px;
 
     }
+}
+.title-h5{
+  color:#c7940a;
+
+  border-right: 2px solid var(--main-color);
+   
+  overflow: hidden;
+  white-space:nowrap;
+  animation: control-width 4s steps(55) both ,blink 0.9s infinite;
+  
+
+}
+@keyframes control-width {
+
+  from {
+      width: 0;
+  }
+  to{
+      width:38rem;
+  }
+  
+}
+@keyframes blink {
+
+  from {
+
+      border-right-color: var(--main-color);
+  }
+  to {
+
+      border-right-color: transparent;
+
+  }
+  
+}
+.boton-more{
+  background-color: #c7940a;
+    color: #151515;
+    padding: 1em;
+    border-radius: 10px;
+    text-decoration: none;
 }

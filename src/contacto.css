@@ -1,0 +1,146 @@
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+
+
+.body {
+    height: 100%;
+    font-family: 'Noto Sans', sans-serif;
+position: relative;
+    display: flex;
+    background-image: url(https://images.pexels.com/photos/2696064/pexels-photo-2696064.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+
+}
+.body:before{
+    content: '';
+    position: absolute;
+    background-color: black;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0.5;
+  }
+
+
+.contact_form {
+    position: relative;
+    width: 480px;
+    height: auto;
+    margin: 80px auto;
+    border-radius: 18px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: #fbfbfb6b;
+    padding-left: 30px;
+}
+
+
+.text-input {
+    background-color: #fbfbfb;
+    width: 408px;
+    height: 40px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+
+textarea {
+    background-color: #fbfbfb;
+    width: 405px;
+    height: 150px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    margin-top: 10px;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+}
+
+
+label {
+    display: block;
+    float: center;
+}
+
+
+.btton {
+    height: 60px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    background-color: #c7940a;
+    border-style: solid;
+    border-radius: 10px;
+    width: 420px;
+    cursor: pointer;
+}
+
+
+.btton p {
+    color: #fff;
+}
+
+
+span {
+    color: #c7940a;
+}
+
+
+.aviso {
+    font-size: 13px;
+    color: #0e0e0e;
+}
+
+
+.text-contacto {
+    font-size: 39px;
+    text-align: letf;
+    padding-bottom: 20px;
+    color: #c7940a;
+}
+
+
+.text-sub {
+    font-size: 16px;
+    padding-bottom: 30px;
+    color: #0e0e0e;
+}
+
+
+.parrafo-text {
+    font-size: 14px;
+    color: #0e0e0e;
+}
+
+
+::-webkit-input-placeholder {
+    color: #a8a8a8;
+}
+
+
+::-webkit-textarea-placeholder {
+    color: #a8a8a8;
+}
+
+
+.formulario .text-input:focus {
+    outline: 0;
+    border: 1px solid #97d848;
+}
+
+
+.formulario textarea:focus {
+    outline: 0;
+    border: 1px solid #97d848;
+}

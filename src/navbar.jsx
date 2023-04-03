@@ -1,6 +1,7 @@
-import React from 'react'
+import React, { useContext } from "react";
 import "./navbar.css"
 import Landpage from './landpage'
+import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <nav class="navbar navbar-expand-lg bg">
@@ -12,16 +13,24 @@ const Navbar = () => {
     <div class="collapse navbar-collapse navbar-style" id="navbarNavDropdown">
       <ul class="navbar-nav buttonf">
         <li class="nav-item ">
-          <a class="nav-link" aria-current="page" href="#Home">HOME</a>
+            <Link to="/">  
+          <a class="nav-link" aria-current="page">HOME</a>
+            </Link>
         </li>
         <li class="nav-item ">
-          <a class="nav-link" href="#Menu">MENU</a>
+        <Link to="/menu">
+          <a class="nav-link" >MENU</a>
+        </Link>
         </li>
         <li class="nav-item ">
+            <Link to="/planes" >  
           <a class="nav-link" href="#Planes">PLANES</a>
+            </Link >
         </li>
         <li class="nav-item">
+            <Link to="contacto">  
           <a class="nav-link " href="#Contacto">CONTACTO</a>
+            </Link>
         </li>
         
       </ul>
