@@ -3,7 +3,7 @@
     justify-content: space-around;
 }
 .navbar-style ul li a{
-    color: rgb(239, 9, 9);
+    color: rgb(255, 255, 255);
 }
 .buttonf{
     display: contents;
@@ -16,4 +16,7 @@
     display: flex;
     justify-content: space-between;
     flex-direction: column;
+}
+.bg{
+    background-color: DimGray;
 }
